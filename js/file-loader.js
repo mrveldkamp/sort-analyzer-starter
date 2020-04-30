@@ -21,7 +21,7 @@ function initializeDataArrays() {
 
 function numberArrayFromText(data) {
   // Convert text file data into an array of numbers
-  let temp = data.split("\r\n");
+  let temp = data.split("\n");
   for (let i = 0; i < temp.length; i++) {
     temp[i] = +temp[i]; // Convert element to Number
   }
